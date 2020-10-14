@@ -12,3 +12,5 @@ simple plugins configuration for convenient university learning. python/js/c++ l
 * `nvim`
 * `:PlugInstall`
 * relauch vim, so plugins can start normally
+
+## custom-keys
