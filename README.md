@@ -11,3 +11,4 @@ simple plugins configuration for convenient university learning. python/js/c++ l
 * `git clone https://github.com/d-ornen/vim-conf ~/.config/nvim/`
 * `nvim`
 * `:PlugInstall`
+* relauch vim, so plugins can start normally
