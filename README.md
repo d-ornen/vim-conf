@@ -1,6 +1,6 @@
 # install:
-* yay -S vim-plug
-* git clone d-ornen/vim-conf ~/.config/nvim/
+* `yay -S vim-plug`
+* `git clone d-ornen/vim-conf ~/.config/nvim/`
 * `nvim`
 * `:PlugInstall`
 
