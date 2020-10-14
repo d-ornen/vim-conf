@@ -1,8 +1,10 @@
 # install:
-yay -S vim-plug
-git clone d-ornen/vim-conf ~/.config/`
+* yay -S vim-plug
+* git clone d-ornen/vim-conf ~/.config/nvim/
+* `nvim`
+* `:PlugInstall`
 
-## vim-conf:
+## vim-configuration:
 simple plugins configuration for convenient university learning. python/js/c++ lintering/fixing. few dependencies required:
 * `pip install flake8` (for python lint)
 * `pacman -S npm` (this and next 2 lines are for js lint)
