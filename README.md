@@ -11,7 +11,6 @@ Few dependencies required:
 * for c++ error highlight `cc` linter is used, but it was preinstalled for my system
 
 ## install:
-* `yay -S vim-plug`
 * `git clone https://github.com/d-ornen/vim-conf ~/.config/nvim/`
 * `nvim`
 * `:PlugInstall`
