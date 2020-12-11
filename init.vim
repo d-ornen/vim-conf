@@ -13,6 +13,7 @@ Plug 'w0rp/ale'
 Plug 'dense-analysis/ale'
 Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
+Plug 'stevearc/vim-arduino'
 
 call plug#end()
 let g:rainbow_active = 1
