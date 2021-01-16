@@ -11,7 +11,7 @@ Few dependencies required:
 * `sudo pacman -S eslint`
 * `sudo pip install isort` for python import sorting
 * `sudo pip install autoimport` to not to return to the beginning of code when you realised that you forgot to import time module
-* for c++ error highlight `cc` linter is used, but it was preinstalled for my system
+* for c++ error highlight you will need g++ as dependency, but it's obvious
 
 ## install:
 * `git clone https://github.com/d-ornen/vim-conf ~/.config/nvim/`
