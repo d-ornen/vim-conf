@@ -9,6 +9,8 @@ Few dependencies required:
 * `sudo pacman -S npm` (this and next 2 lines are for js lint)
 * `npm init`
 * `sudo pacman -S eslint`
+* `sudo pip install isort` for python import sorting
+* `sudo pip install autoimport` to not to return to the beginning of code when you realised that you forgot to import time module
 * for c++ error highlight `cc` linter is used, but it was preinstalled for my system
 
 ## install:
