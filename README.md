@@ -18,3 +18,9 @@ Few dependencies required:
 * relauch vim, so plugins can start normally
 
 ## custom-keys
+* C-r - replacement command
+* F2 - run syntax fixer (strip blank spaces, etc)
+* C-f toggle NerdTree
+* C-z - remapped emmet leader key
+* C-k show previous ale warning
+* C-j show nex ale warning
