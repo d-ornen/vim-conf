@@ -4,11 +4,8 @@ simple plugins configuration for convenient university learning. python/js/c++ l
 Few dependencies required:
 * vim-plug preinstalled. Command to install for neovim:
 `sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`
-* `sudo pip install flake8` (for python lint)
-* `sudo pacman -S nodejs`
-* `sudo pacman -S npm` (this and next 2 lines are for js lint)
+* `sudo pip install flake8 eslint nodejs npm ` (for python lint)
 * `npm init`
-* `sudo pacman -S eslint`
 * `sudo pip install isort` for python import sorting
 * `sudo pip install autoimport` to not to return to the beginning of code when you realised that you forgot to import time module
 * for c++ error highlight you will need g++ as dependency, but it's obvious
