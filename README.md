@@ -5,7 +5,7 @@ Few dependencies required:
 * vim-plug preinstalled. Command to install for neovim:
 `sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`
 * `sudo pacman -S eslint npm`
-* `sudo pip install flake8 nodejs npm `
+* `sudo pip install flake8 nodejs`
 * `npm init`
 * `sudo pip install isort` for python import sorting
 * `sudo pip install autoimport` to not to return to the beginning of code when you realised that you forgot to import time module
