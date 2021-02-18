@@ -11,8 +11,13 @@ Plug 'dense-analysis/ale' "linter plugin
 Plug 'roxma/nvim-yarp' "its dependencies
 Plug 'roxma/vim-hug-neovim-rpc' "dependencies too
 Plug  'jmcantrell/vim-virtualenv' "python virtual environments i vim
+Plug 'vimpostor/vim-tpipeline' " embed vim statusline into tmux'
 call plug#end()
 
+set -g status-bg default
+set -g status-right '#(cat #{socket_path}-\#{session_id}-vimbridge)'
+set -g status-right-length 120
+set -g status-interval 0
 
 let g:ale_fixers = {'*': ['remove_trailing_lines', 'trim_whitespace']}
 let g:user_emmet_install_global = 0
