@@ -24,7 +24,7 @@ map <C-f> :NERDTreeToggle<CR>
 
 let g:ale_fix_on_save = 1
 colorscheme gruvbox
-map <C-r> :%s///g " you can select few lines and hit sequence to replace some text in selected area, in following format: :%s/original word/replacement/g
+map <C-r> :s///g " you can select few lines and hit sequence to replace some text in selected area, in following format: :%s/original word/replacement/g
 map <F2> :ALEFix<CR>
 let g:deoplete#enable_at_startup = 1
 set tabstop=2 shiftwidth=2 expandtab
