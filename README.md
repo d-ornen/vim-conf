@@ -14,6 +14,7 @@ Few dependencies required:
 * `git clone https://github.com/d-ornen/vim-conf ~/.config/nvim/`
 * `nvim`
 * `:PlugInstall`
+* `:CocInstall coc-python`
 * relaunch vim, so plugins can start normally
 
 ## custom-keys
