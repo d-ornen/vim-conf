@@ -1,6 +1,6 @@
 # dependencies:
 
-simple plugins configuration for convenient university learning. python/js/c++ lintering/fixing. 
+simple plugins configuration for convenient university learning. python/rs/c++ lintering/fixing. 
 Few dependencies required:
 * vim-plug preinstalled. Command to install for neovim:
 `sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`
