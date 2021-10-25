@@ -5,7 +5,7 @@ Few dependencies required:
 * vim-plug preinstalled. Command to install for neovim:
 `sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`
 * Those most probably available via your default distro package manager. `nodejs g++ radare2 rizin gdb clangd`
-* pip-specific `sudo pip install pudb`.
+* pip-specific `pip install pudb`.
 
 ## install:
 * `git clone https://github.com/d-ornen/vim-conf ~/.config/nvim/`
