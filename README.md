@@ -11,11 +11,12 @@ Few dependencies required:
 * `git clone https://github.com/d-ornen/vim-conf ~/.config/nvim/`
 * `nvim`
 * `:PlugInstall`
-* relaunch vim, so plugins can start normally.
+* relaunch editor, so plugins can start normally.
 
 ## custom-keys
 * It depends on filetype you opened, so better read the conf file to get familiar with all the keys, but the main are.
-* [normal mode]
+
+ [normal mode]
 * <[S]hift-[r]un> - Compile & run current file (if it is .cpp|.py|.rs file).
 * <[S]hift-[c]ompile> - Compile current file (if it is .cpp|.rs file).
 * <[S]hift-[d]ebug> - Open current file in gdb session (if it is .cpp|.rs file, if .py, open pudb).
@@ -28,9 +29,10 @@ Few dependencies required:
 * [Leader key]rc - Reload config (some code completion breaks when this option being called, so it is just safer for your sanity to reload nvim as usual)
 * [Leader key]ec - edit config.
 * [Leader key]n - quick open file in new tab
-* [Insert mode]
-* <Tab> - expand snippet, see honza/vim-snippets repo for detail info, multiple languages support.
-* 
+
+ [Insert mode]
+* <Tab\> - expand snippet, see honza/vim-snippets repo for detail info, multiple languages support.
+* <Mod+space> - Trigger autocompletion for the item under cursor.
 ## Important notes
 * Syntax higlighting depends per tab, same as shortcuts, so it is okay to open 2 tabs or split panes with python + cpp script, and launch apropriate shortcut for each file without any relaunches.
-## I am always happy to improve my script, so feel free to send pull requests & issues.
+## I am always happy to improve my config, so feel free to send pull requests & issues.
